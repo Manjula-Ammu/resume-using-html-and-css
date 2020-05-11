@@ -1,0 +1,93 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.banner-wrapper{
+    height: 700px;
+    display: flex;
+}
+.banner-left{
+    flex-basis: 50%;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-size: 35pt;
+}
+.banner-right{
+    flex-basis: 50%;
+    }
+.about-wrapper{
+    display: flex;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-size: 15pt;
+}
+.about-left{
+    flex-basis: 50%;
+}
+.about-right{
+    flex-basis: 50%;
+}
+.feature-wrapper{
+    display: flex;
+}
+.feature-left{
+    flex-basis: 50%;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-size: 30pt;
+}
+.feature-right{
+    flex-basis: 50%;
+}
+.service-title{
+    text-align: center;
+}
+.service-details{
+    display: flex;
+}
+.service-detail{
+    flex-basis: 25%;
+}
+.portfolio-title{
+    text-align: center;
+}
+.portfolio-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-detail{
+    flex-basis: auto;
+}
+.call-wrapper{
+    display: flex;
+    height: 200px;
+    background-color: cadetblue;
+    text-align: start; 
+}
+.call-left{
+    
+    flex-basis: 75%;
+    
+}
+.call-right{
+    flex-basis: 25%;
+    
+}
+.team-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-detail{
+    flex-basis: auto
+   
+}
+.contact-wrapper{
+    display: flex;
+    text-align: center;   
+}
+.contact-left{
+    flex-basis: 50%;
+}
+.contact-right{
+    flex-basis: 50%;    
+}
+
+
+
