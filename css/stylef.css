@@ -2,6 +2,19 @@
     width: 1200px;
     margin: auto;
 }
+.header-wrapper{
+    display: flexbox;
+}
+.logo{
+    flex-basis: 50%;
+    text-align: left;
+}
+.navigation{
+    flex-basis: 50%;
+    margin-right: auto;
+    text-align: right;
+
+}
 .banner-wrapper{
     height: 700px;
     display: flex;
